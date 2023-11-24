@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nombre', 100);
             $table->integer('semestre');
             $table->string('especialidad', 20);
+            $table->timestamps();
         });
     }
 
